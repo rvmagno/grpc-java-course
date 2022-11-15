@@ -1,0 +1,34 @@
+.gradle
+gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+proto-model/bin/**/*
+order-service/bin/**/*
+integration-test/bin/**/*
+integration-test/gradle
+integration-test/gradlew*
+
+.DS_Store
+*.swp
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.vscode
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out
+build
+
+
+/local-dev/tmp
+/local-dev/**/.terraform
